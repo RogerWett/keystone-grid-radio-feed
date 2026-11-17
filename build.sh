@@ -63,7 +63,7 @@ if [[ -n "$listen" && -f public/listen.html ]]; then
   listen="${listen%/}"
   mkdir -p "dist/listen-${listen}"
   cp public/listen.html "dist/listen-${listen}/index.html"
-  cat > "dist/listen-${listen}/manifest.webmanifest" << EOF
+  cat > "dist/listen-${listen}/manifest.json" << EOF
 {
   "name": "Grid Radio",
   "short_name": "Grid Radio",
