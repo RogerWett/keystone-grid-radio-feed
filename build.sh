@@ -14,8 +14,18 @@ if [[ -n "$secret" ]]; then
   secret="${secret#feed-}"
   secret="${secret%.xml}"
   cp public/feed.xml "dist/feed-${secret}.xml"
-  # Do not publish the obvious /feed.xml path; only the unguessable filename.
-  rm -f dist/feed.xml
+  # Never leave the real feed at the guessable /feed.xml path. Overwrite it
+  # (Render may keep files from a previous deploy if they are only deleted).
+  cat > dist/feed.xml << 'STUB'
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Not the subscribe URL</title>
+    <link>https://keystone-grid-radio.onrender.com/</link>
+    <description>This path is not the Keystone Grid Radio subscribe link.</description>
+  </channel>
+</rss>
+STUB
 fi
 
 # Optional: inject the subscribe URL into the landing page at build time
