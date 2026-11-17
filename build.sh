@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Render build: copy the static site and publish the feed under the secret filename.
 # FEED_SECRET is a Render environment variable (the hex suffix only, no "feed-" prefix
-# or with it — both work). SITE_URL is the public https origin, e.g.
-# https://keystone-grid-radio.onrender.com
+# or with it — both work). LISTEN_SECRET is the 6-character listen-page slug.
+# SITE_URL is the public https origin, e.g. https://keystone-grid-radio.onrender.com
 set -euo pipefail
 rm -rf dist
 mkdir -p dist
@@ -55,4 +55,31 @@ if n:
     Path("dist/index.html").write_text(html2, encoding="utf-8")
 PY
 fi
+# Listen page: publish only at the unguessable /listen-<slug>/ path.
+# LISTEN_SECRET is the 6-character slug (with or without a "listen-" prefix).
+listen="${LISTEN_SECRET:-}"
+if [[ -n "$listen" && -f public/listen.html ]]; then
+  listen="${listen#listen-}"
+  listen="${listen%/}"
+  mkdir -p "dist/listen-${listen}"
+  cp public/listen.html "dist/listen-${listen}/index.html"
+  cat > "dist/listen-${listen}/manifest.webmanifest" << EOF
+{
+  "name": "Grid Radio",
+  "short_name": "Grid Radio",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#061018",
+  "theme_color": "#061018",
+  "icons": [
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
+EOF
+  # Do not leave the player at the guessable /listen.html path.
+  rm -f dist/listen.html
+fi
+
 echo "build ok"
