@@ -14,6 +14,8 @@ if [[ -n "$secret" ]]; then
   secret="${secret#feed-}"
   secret="${secret%.xml}"
   cp public/feed.xml "dist/feed-${secret}.xml"
+  # Do not publish the obvious /feed.xml path; only the unguessable filename.
+  rm -f dist/feed.xml
 fi
 
 # Optional: inject the subscribe URL into the landing page at build time
