@@ -1,0 +1,29 @@
+# Blueprint for a free Render static site that serves the podcast
+# landing page, cover art, and RSS feed. MP3s are NOT in this repo;
+# they live on GitHub Releases and are linked from the feed.
+#
+# After the repo is public, create the static site (or apply this
+# Blueprint) in the UCS Render workspace. Set FEED_SECRET (the hex
+# suffix from the box config) and SITE_URL (the onrender.com origin)
+# as environment variables. Do not commit those values here.
+services:
+  - type: web
+    runtime: static
+    name: keystone-grid-radio
+    plan: free
+    buildCommand: bash build.sh
+    staticPublishPath: dist
+    autoDeployTrigger: commit
+    headers:
+      - path: /*.xml
+        name: Content-Type
+        value: application/rss+xml; charset=utf-8
+      - path: /*
+        name: X-Robots-Tag
+        value: noindex, nofollow, noarchive
+      - path: /cover.png
+        name: Cache-Control
+        value: public, max-age=86400
+      - path: /cover.jpg
+        name: Cache-Control
+        value: public, max-age=86400

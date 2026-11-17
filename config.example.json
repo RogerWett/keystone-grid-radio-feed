@@ -1,0 +1,16 @@
+{
+  "github_owner": "RogerWett",
+  "github_repo": "keystone-grid-radio-feed",
+  "feed_secret": "SET_LOCALLY_DO_NOT_COMMIT",
+  "feed_filename": "feed-SECRET.xml",
+  "site_name": "keystone-grid-radio",
+  "site_url": "https://YOUR-SERVICE.onrender.com",
+  "max_episodes": 30,
+  "render_workspace_id": "tea-dbign18n74is739qb4ig",
+  "podcast_title": "Keystone Grid Radio",
+  "podcast_author": "Keystone Grid Radio",
+  "podcast_description": "A short daily briefing on the Mid-Atlantic power grid, infrastructure, and the work of the Keystone family of companies.",
+  "language": "en-us",
+  "itunes_category": "News",
+  "itunes_subcategory": "Daily News"
+}
