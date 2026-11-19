@@ -6,7 +6,7 @@
     <description>A short daily briefing on the Mid-Atlantic power grid, infrastructure, and the work of the Keystone family of companies.</description>
     <language>en-us</language>
     <copyright>© 2026 Keystone Grid Radio</copyright>
-    <lastBuildDate>Thu, 19 Nov 2026 06:07:28 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 09:14:04 -0500</lastBuildDate>
     <generator>Keystone Grid Radio publisher</generator>
     <ttl>60</ttl>
     <atom:link href="https://keystone-grid-radio.onrender.com/feed-d8f2a943c732509deb8d42087ca74280.xml" rel="self" type="application/rss+xml"/>
@@ -28,20 +28,6 @@
     <itunes:category text="News">
       <itunes:category text="Daily News"/>
     </itunes:category>
-    <item>
-      <title>Keystone Grid Radio — Thursday, November 19, 2026</title>
-      <description>Morning. Seven hundred eighty-three million dollars. That's how much the price just went up on Exelon's transmission work in P.J.M. And the reason isn't steel or copper. It's people. There aren't enough skilled hands to build it. Plus a controlled burn up in Conowingo, three world leaders at one table, and Chapter Four of Combat Chronicles. The night the weather said no.</description>
-      <pubDate>Thu, 19 Nov 2026 05:30:00 -0500</pubDate>
-      <guid isPermaLink="false">kgr-2026-11-19</guid>
-      <link>https://github.com/RogerWett/keystone-grid-radio-feed/releases/download/2026-11-19/keystone-grid-radio-2026-11-19.mp3</link>
-      <enclosure url="https://github.com/RogerWett/keystone-grid-radio-feed/releases/download/2026-11-19/keystone-grid-radio-2026-11-19.mp3" length="21398090" type="audio/mpeg"/>
-      <itunes:title>Keystone Grid Radio — Thursday, November 19, 2026</itunes:title>
-      <itunes:summary>Morning. Seven hundred eighty-three million dollars. That's how much the price just went up on Exelon's transmission work in P.J.M. And the reason isn't steel or copper. It's people. There aren't enough skilled hands to build it. Plus a controlled burn up in Conowingo, three world leaders at one table, and Chapter Four of Combat Chronicles. The night the weather said no.</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:duration>14:52</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:image href="https://keystone-grid-radio.onrender.com/cover.png"/>
-    </item>
     <item>
       <title>Keystone Grid Radio — Wednesday, November 18, 2026</title>
       <description>Morning. So Nvidia reported last night. A hundred fifteen point eight billion dollars in one quarter. In one quarter. And almost all of it is data centers. Which is exactly why P.J.M. is rewriting the rules this week. Plus a gas pipeline project right here in Cecil County, another sunny day for crews, and Chapter Three of Combat Chronicles. Somebody's back from the dead.</description>
