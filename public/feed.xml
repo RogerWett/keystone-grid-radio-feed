@@ -6,7 +6,7 @@
     <description>A short daily briefing on the Mid-Atlantic power grid, infrastructure, and the work of the Keystone family of companies.</description>
     <language>en-us</language>
     <copyright>© 2026 Keystone Grid Radio</copyright>
-    <lastBuildDate>Tue, 24 Nov 2026 05:08:34 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 05:33:13 -0500</lastBuildDate>
     <generator>Keystone Grid Radio publisher</generator>
     <ttl>60</ttl>
     <atom:link href="https://keystone-grid-radio.onrender.com/feed-d8f2a943c732509deb8d42087ca74280.xml" rel="self" type="application/rss+xml"/>
@@ -34,11 +34,11 @@
       <pubDate>Tue, 24 Nov 2026 05:30:00 -0500</pubDate>
       <guid isPermaLink="false">kgr-2026-11-24</guid>
       <link>https://github.com/RogerWett/keystone-grid-radio-feed/releases/download/2026-11-24/keystone-grid-radio-2026-11-24.mp3</link>
-      <enclosure url="https://github.com/RogerWett/keystone-grid-radio-feed/releases/download/2026-11-24/keystone-grid-radio-2026-11-24.mp3" length="28152101" type="audio/mpeg"/>
+      <enclosure url="https://github.com/RogerWett/keystone-grid-radio-feed/releases/download/2026-11-24/keystone-grid-radio-2026-11-24.mp3" length="28172163" type="audio/mpeg"/>
       <itunes:title>Keystone Grid Radio — Tuesday, November 24, 2026</itunes:title>
       <itunes:summary>Overnight, the Weather Service pushed a High Wind Watch inland, across Delmarva and into southeastern Pennsylvania. Gusts of fifty to sixty miles an hour, on Thanksgiving Day. If you work on the grid, your holiday may have just changed. This is Keystone Grid Radio. It's Tuesday, November twenty-fourth. I'm Brian. I'm Max. And I'm Lena. Good morning, everybody. Big show. That storm, a price bump hitting Pennsylvania bills in one week, three Cecil County businesses closing their doors, and the most dramatic boardroom U-turn of the year.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:duration>19:33</itunes:duration>
+      <itunes:duration>19:34</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:image href="https://keystone-grid-radio.onrender.com/cover.png"/>
     </item>
