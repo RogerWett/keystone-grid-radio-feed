@@ -6,7 +6,7 @@
     <description>A short daily briefing on the Mid-Atlantic power grid, infrastructure, and the work of the Keystone family of companies.</description>
     <language>en-us</language>
     <copyright>© 2026 Keystone Grid Radio</copyright>
-    <lastBuildDate>Wed, 25 Nov 2026 04:47:38 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 09:05:54 -0500</lastBuildDate>
     <generator>Keystone Grid Radio publisher</generator>
     <ttl>60</ttl>
     <atom:link href="https://keystone-grid-radio.onrender.com/feed-d8f2a943c732509deb8d42087ca74280.xml" rel="self" type="application/rss+xml"/>
@@ -28,6 +28,20 @@
     <itunes:category text="News">
       <itunes:category text="Daily News"/>
     </itunes:category>
+    <item>
+      <title>Keystone Grid Radio — Thursday, November 26, 2026</title>
+      <description>Overnight, the Weather Service upgraded Cecil County from a Wind Advisory to a High Wind Warning. Gusts around sixty miles an hour, today, Thanksgiving Day. And up in New York, for the first time in its hundred-year history, the Macy's parade has been postponed. This is Keystone Grid Radio. It's Thursday, November twenty-sixth, Thanksgiving Day. I'm Brian. I'm Max. Happy Thanksgiving. And I'm Lena. Happy Thanksgiving, everybody. And if you're on the road or on a job this morning, thank you.</description>
+      <pubDate>Thu, 26 Nov 2026 05:30:00 -0500</pubDate>
+      <guid isPermaLink="false">kgr-2026-11-26</guid>
+      <link>https://github.com/RogerWett/keystone-grid-radio-feed/releases/download/2026-11-26/keystone-grid-radio-2026-11-26.mp3</link>
+      <enclosure url="https://github.com/RogerWett/keystone-grid-radio-feed/releases/download/2026-11-26/keystone-grid-radio-2026-11-26.mp3" length="38067765" type="audio/mpeg"/>
+      <itunes:title>Keystone Grid Radio — Thursday, November 26, 2026</itunes:title>
+      <itunes:summary>Overnight, the Weather Service upgraded Cecil County from a Wind Advisory to a High Wind Warning. Gusts around sixty miles an hour, today, Thanksgiving Day. And up in New York, for the first time in its hundred-year history, the Macy's parade has been postponed. This is Keystone Grid Radio. It's Thursday, November twenty-sixth, Thanksgiving Day. I'm Brian. I'm Max. Happy Thanksgiving. And I'm Lena. Happy Thanksgiving, everybody. And if you're on the road or on a job this morning, thank you.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>26:26</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:image href="https://keystone-grid-radio.onrender.com/cover.png"/>
+    </item>
     <item>
       <title>Keystone Grid Radio — Wednesday, November 25, 2026</title>
       <description>Overnight, the Weather Service put a Wind Advisory on most of Maryland, including Cecil County. Thursday, Thanksgiving Day, gusts up to fifty-five miles an hour, on top of one to two inches of rain. Your holiday has a forecast, and it's not a quiet one. This is Keystone Grid Radio. It's Wednesday, November twenty-fifth, the day before Thanksgiving. I'm Brian. I'm Max. And I'm Lena. Good morning, everybody. Big travel day. Big everything day. Coming up, how the utilities are getting ready for that storm, some actual good news on Delaware gas bills, a small Cecil County river town hitting the…</description>
